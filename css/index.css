@@ -1,0 +1,153 @@
+@import url("./_dropdown.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.mobile-Menu {
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  border-radius: 3px;
+}
+.mobile-Menu:hover {
+  background-color: #fbaee6;
+  color: rgb(86, 86, 86);
+}
+.bold:hover {
+  background-color: #a10277;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.sumMobile-Menu {
+}
+.navbar {
+  transition: all 200ms;
+  display: flex;
+  top: 0;
+  width: 100%;
+  justify-content: space-between;
+  background: white;
+  opacity: 0.95;
+  /* padding: 1rem; */
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.logo {
+  transition: all 200ms;
+  padding: 1rem;
+}
+.navbar.extend {
+  padding: 30px 10px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.navbar ul li a {
+  color: black;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+
+.navbar ul li a:hover {
+  background: #a10277;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+#wrapper {
+  display: flex;
+}
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  justify-content: end;
+}
+
+.contactUs {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-Us {
+  background-color: white;
+  color: rgb(66, 66, 66);
+  border: none;
+  margin: 5px;
+}
+.access {
+  padding-bottom: 5px;
+}
+.button3 {
+  background-color: #a10277;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  color: white;
+  font-size: 18px;
+  border: none !important;
+  padding: 5px 10px;
+}
+
+.button3:hover {
+  background-color: #b04f96;
+  color: white;
+}
+.itemsubmenu {
+  font-weight: bold;
+}
+.submenu {
+  padding: 5 18px;
+  display: none;
+  background-color: #f1f1f1;
+  overflow: hidden;
+  color: black;
+}
+.submenu a {
+  padding: 10px;
+  font-size: 1.25rem;
+  color: black;
+  width: 260px;
+}
+.submenu a:hover {
+  margin: 5px;
+  background-color: #fbaee6;
+  color: rgb(86, 86, 86);
+}
+.subsub {
+  padding: 15px;
+  color: black;
+}
+.subsub a {
+  margin: 5px;
+  color: black;
+}
+.subsub a:hover {
+  margin: 5px;
+  padding: 10px;
+  background-color: #fbaee6;
+  color: rgb(86, 86, 86);
+}
+.sub {
+  padding: 5px;
+  font-size: 1.25rem;
+  color: black;
+  width: 260px;
+}
+.subsub1 {
+  padding: 15px;
+  color: black;
+}
+.subsub li {
+  margin: 10px;
+  padding: 5px;
+}

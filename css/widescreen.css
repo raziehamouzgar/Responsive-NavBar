@@ -1,0 +1,28 @@
+.menu_icon {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .menu {
+    display: none !important;
+  }
+  .menu_icon {
+    display: block !important;
+    width: 40px;
+    height: 40px;
+    margin: 1rem;
+  }
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  .logo {
+    text-align: center;
+  }
+  #wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contactUs {
+    display: none;
+  }
+}
